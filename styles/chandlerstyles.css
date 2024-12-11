@@ -1,0 +1,66 @@
+body{
+    background-color: beige;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-content{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.sidebarchandler{
+    background-color: rgb(212, 106, 30);
+    width:200px;
+    height:100%;
+    left: 0;
+    padding:10px;
+    position: fixed;
+
+}
+
+.navbarchandler{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(93, 78, 78);
+}
+
+.navbarchandler a{
+    color: rgb(56, 36, 25);
+}
+
+.navbarchandler a:hover{
+    background-color: rgb(241, 181, 149);
+    border-radius: 5px;
+}
+
+
+.sidebarchandler ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebarchandler ul li{
+    margin: 15px 0;
+}
+
+.sidebarchandler ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sidebarchandler ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.tableauplaceholder{
+    margin-left: 220px;
+    padding: 20px;
+}

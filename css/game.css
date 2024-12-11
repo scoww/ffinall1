@@ -1,0 +1,81 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centering the game container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#attempts {
+    font-size: 14px;
+    color: #888;
+}
+.navbarchandler{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(93, 78, 78);
+    text-align: center; /* Ensure the text is centered */
+    position: absolute; /* Remove the element from the flow and position it */
+    top: 50px; /* Adjust the value here to control how far the text is from the top */
+    left: 50%; /* Position it horizontally at 50% */
+    transform: translateX(-50%); /* Adjust by half of its own width to center it */
+}
